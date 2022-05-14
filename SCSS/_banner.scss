@@ -1,0 +1,25 @@
+.banner
+{
+    height: 85vh;
+    background-image: url(../img/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights
+{
+    padding: 70px 0;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+.booking-btn
+{
+    @extend .login-btn;
+    width: 120px;
+    float: none;
+    margin-top: 30px;
+}

@@ -1,0 +1,44 @@
+footer
+{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d, #9610fd);
+    color: #fff;
+
+    .fab
+    {
+        padding-right: 20px;
+        font-size: 15px;
+    }
+   
+    h4 
+    {
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    p 
+    {
+        font-size: 12px;
+        text-align: justify;
+        padding-right: 35px;
+    }
+
+    hr 
+    {
+       margin-top: 10px;
+       background-color: #efefef;
+    }
+
+    .copyright
+    {
+        text-align: center !important;
+    }
+}
+
+.footer-logo
+{
+    width: 150px;
+    margin: 15px 0;
+}
+

@@ -1,0 +1,36 @@
+.gallery
+{
+    padding: 100px 0;
+    background-color: #efefef;
+}
+
+.gallery-box 
+{
+    position: relative;
+    margin-bottom: 30px;
+
+    img 
+    {
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 2s;
+        margin-bottom: 10px;
+    }
+
+    img:hover
+    {
+        transform: scale(1.2);
+    }
+
+    h4 
+    {
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        width: 200px;
+        color: #fff;
+        font-weight: 600;
+        text-shadow: -2px 2px 2px #000;
+    }
+}
